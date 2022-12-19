@@ -1,0 +1,402 @@
+h1 {
+    margin-left: 514px;
+    font-style: italic;
+  }
+.index1{
+    background-color: pink;
+}
+.index2
+{
+    background-color: #00a5ec;
+}
+.index3
+{   border: 2px solid;
+    border-left: orangered;
+    border-right: green;
+}
+  .back
+  {
+margin: 142px;
+  }
+  .next
+  {
+    margin: 142px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px;
+    gap: 40px;
+  }
+  .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(237 -32 113 / 114);
+    border: 2px solid rgb(36, 34, 34);
+    animation: box1 3s infinite alternate-reverse;
+  }
+  @keyframes box1 {
+    0% {
+      transform: skew(-30deg);
+    }
+    100% {
+      transform: skew(30deg);
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px;
+    gap: 40px;
+  }
+  .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(120, 186, 221);
+    border: 2px solid rgb(12, 11, 11);
+    animation: box2 3s infinite alternate;
+  }
+  @keyframes box2 {
+    0% {
+      transform: skewY(-30deg);
+    }
+    100% {
+      transform: skewY(30deg);
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px;
+    gap: 40px;
+  }
+  .box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #8a6cc2;
+    border: 2px solid rgb(8, 8, 8);
+    animation: box3 3s infinite forwards;
+  }
+  @keyframes box3 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 228, 7);
+    border: 2px solid rgba(10, 9, 9, 0.573);
+    animation: box4 3s infinite alternate;
+  }
+  @keyframes box4 {
+    0% {
+      transform: scaleX(1);
+    }
+    100% {
+      transform: scaleY(0.5);
+    }
+  }
+  .box4a {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 168, 14);
+    border: 2px solid rgb(22, 20, 20);
+    animation: box4a 3s infinite alternate;
+  }
+  @keyframes box4a {
+    0% {
+      transform: scaleX(0.5);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  .box4s {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150, 62, 138);
+    border: 2px solid rgb(12, 11, 11);
+    animation: box4s 3s infinite forwards;
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+  }
+  @keyframes box4s {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(100deg);
+    }
+  }
+  /* page 1 :end */
+  
+  /* page2index.html */
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .btn {
+    background-color: rgb(247, 229, 67);
+    width: 200px;
+    height: 150px;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+  .btn:hover {
+    background-color: rgb(255, 115, 0);
+    height: 150px;
+    width: 500px;
+  }
+  .btn1 {
+    background-color: #00a5ec;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+  }
+  .btn1:hover {
+    background-color: rgb(43, 255, 0);
+    height: 250px;
+    width: 500px;
+  }
+  .btn2 {
+    background-color: rgb(140, 240, 198);
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+  }
+  .btn2:hover {
+    background-color: rgb(76, 0, 255);
+    height: 150px;
+    width: 500px;
+  }
+  .btn3 {
+    background-color: rgb(17, 91, 126);
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+  }
+  .btn3:hover {
+    background-color: rgb(157, 255, 0);
+    height: 150px;
+    width: 500px;
+  }
+  .btn4 {
+    background-color: rgb(228, 75, 24);
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+  }
+  .btn4:hover {
+    background-color: rgb(14, 12, 12);
+    height: 150px;
+    width: 500px;
+  }
+  .btn5 {
+    background-color: rgb(255, 161, 127);
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+  }
+  .btn5:hover {
+    background-color: rgb(216, 141, 235);
+    height: 150px;
+    width: 500px;
+  }
+  .btn6 {
+    background-color: rgb(154, 220, 247);
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+  }
+  .btn6:hover {
+    background-color: rgb(55, 0, 255);
+    height: 150px;
+    width: 500px;
+  }
+  
+  /* index3.html :start */
+
+.ind
+{
+    display: inline;
+    align-items: center;
+    position: absolute;
+    top: 19px;
+    left: 37%;
+    z-index: 1;
+    font-size: 30px;
+}
+.happy
+{
+    background-color: orangered;
+}
+.pen
+{
+    background-color: aliceblue;
+}
+.day
+{
+    background-color: green;
+}
+.sun
+{
+    width: 120px;
+    position: absolute;
+    right: 115px;
+    top: 75px;
+    animation: sun 70s linear infinite;
+    background-repeat: repeat-x
+}
+@keyframes sun 
+{
+    100%
+    {
+        transform: translateX(-1400px);
+    }
+}
+.sky
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./sky.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    border: solid 5px orangered ;
+    
+}
+.road
+{
+    height: 162px;
+    width: 500%;
+    display: block;
+    background-image: url(./road.jpeg);
+    position: absolute;
+    bottom: -85px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation: highway 5s linear infinite;
+    background-repeat: repeat-x;
+}
+@keyframes highway 
+{
+    100%{
+        transform:translateX(-3400px) ;
+    }
+} 
+.build
+{
+    height: 250px;
+    width: 500%;
+    background-image: url(./build-removebg-preview.png);
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: buid 20s linear infinite;
+}
+@keyframes buid 
+{
+    100%
+    {
+        transform: translateX(-1400px);
+    }
+}
+.car
+{
+    width: 400px;
+    left: 50%;
+    bottom: 42px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.car img
+{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+
+@keyframes car 
+{
+    100%
+    {
+        transform: translateX(-1px);
+    }
+    50%
+    {
+        transform: translateX(-1px);
+    }
+    0%
+    {
+        transform: translateX(-1px);
+    }
+}
+.tyer
+{
+    left: 50%;
+    bottom: 130px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.tyer img{
+    width: 72px;
+    height: 72px;
+    animation: tyer 1s linear infinite;
+}
+.tyer1
+{
+    left: -165px;
+    position: absolute;
+}
+.tyer2
+{
+    left: 80px;
+    position: absolute;
+}
+@keyframes tyer
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.flag
+{
+    position: absolute;
+    right: 35%;
+    bottom: 133px;
+    z-index: 10;
+}
